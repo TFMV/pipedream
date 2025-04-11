@@ -51,6 +51,12 @@ coverage.xml
 .pytest_cache/
 cover/
 
+risingwave/
+research/
+art/linkedin.txt
+
+config/api.txt
+
 # Translations
 *.mo
 *.pot
