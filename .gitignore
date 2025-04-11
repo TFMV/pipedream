@@ -52,7 +52,7 @@ coverage.xml
 cover/
 
 risingwave/
-research/
+research/plan.md
 art/linkedin.txt
 
 config/api.txt
