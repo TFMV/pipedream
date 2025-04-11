@@ -88,7 +88,7 @@ For a comprehensive list of limitations and solutions, see our [limitations docu
 
 This repository accompanies a Medium article series on building stream processing pipelines with RisingWave. The article provides additional context, visualizations, and step-by-step explanations of these pipelines.
 
-[Read the Medium Article →](https://medium.com/@mcgeehan/pipedream-building-stream-processing-pipelines-with-risingwave)
+[Read the Medium Article →](https://medium.com/@mcgeehan/pipedream-2dd05aa38412)
 
 ## License
 
