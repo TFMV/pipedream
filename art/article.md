@@ -15,20 +15,6 @@ And it turns out, it wasn't just promising. It was a joy.
 This article is still called Pipedream - but this time, it's about RisingWave: the most promising data platform I've used in decades. Maybe ever.
 I'll circle back to that other platform eventually. I always do. But not today.
 
-## First Things Last
-
-Let's get this out of the way up front - RisingWave is not ready for production. Not yet. But that's not what this piece is about.
-
-I've spent enough time with early-stage technologies to spot the difference between "promising but unfinished" and "fundamentally flawed." RisingWave firmly occupies the former category. The core architecture is sound. The SQL implementation is thoughtful. The gaps are ones that will close with time, not fundamental design issues that will require painful rewrites.
-
-What's missing? Production hardening. Enterprise features like role-based access control. The battle scars that only come from running under load in diverse environments. There are still rough edges in error messages that leave you scratching your head. Documentation that assumes knowledge you might not have. And the inevitable performance tuning for edge cases that only emerge at scale.
-
-But crucially, the system makes correct trade-offs. Where options existed, the RisingWave team has consistently chosen developer experience over theoretical purity, pragmatic solutions over academic elegance. When something doesn't quite work how you expect, there's usually a reasonable explanation - and an alternative approach that does work.
-
-I've implemented systems with Kafka Streams where everything was a fight. I've battled Flink jobs that required days of tuning to avoid out-of-memory errors. I've seen promising prototypes collapse under their own complexity. RisingWave feels different. It feels like a genuine paradigm shift - the kind that comes along maybe once a decade in our field.
-
-This isn't a launch announcement. It's a signal. A moment in time when something rare happened in streaming: I reached for a tool I'd never used before… and it just made sense.
-
 ## What Is RisingWave?
 
 I've had a front-row seat to the streaming data parade. From the early days of homebrew ETL scripts to the Hadoop revolution, through the Kafka ecosystem explosion, and now into the cloudy, containerized present. In all that time, I've never seen a platform that feels quite like RisingWave.
